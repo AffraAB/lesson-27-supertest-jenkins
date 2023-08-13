@@ -25,7 +25,7 @@
     "@babel/plugin-transform-runtime": "^7.22.10",
     "@babel/preset-env": "^7.22.10",
     "@babel/register": "^7.22.5",
-    "@ngneat/falso": "^7.0.1",
+    "@ngneat/falso": "^6.4.0",
     "chai": "^4.3.7",
     "dotenv": "^16.3.1",
     "mocha": "^10.2.0",
