@@ -1,6 +1,7 @@
 # Files
 package-lock.json
 .env
+test-results.xml
 
 # Folders
 node_modules/
