@@ -18,7 +18,7 @@ describe('/users', () => {
   it('GET | Should get a list of users', async () => {
     const res = await request.get('/users');
     if (debug) console.log(res.body);
-    expect(res.status).to.equal(200);
+    expect(res.status).to.equal(201);
     expect(res.body).to.be.an('array');
     expect(res.body).to.not.be.empty;
   });
