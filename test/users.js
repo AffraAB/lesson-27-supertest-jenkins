@@ -5,6 +5,11 @@ import { createRandomUser } from '../helpers/users_helper.js';
 
 dotenv.config();
 
+/* 
+  These will be picked up in Jenkins and also 
+  needs to be set in the .env file for local usage 
+*/
+
 const request = supertest(process.env.SUPERTEST_BASE_URL);
 const token = process.env.SUPERTEST_USER_TOKEN;
 const debug = process.env.SUPERTEST_DEBUG == 1 ? true : false;
